@@ -16,8 +16,8 @@
       "date": "2025-06-18T18:00:00Z",
       "venue": "Grand Théâtre",
       "city": "Strasbourg",
-      "url": "salon-bio-strasbourg.com",
-      "image": "https://www.example.com/images/event1.jpg",
+      "url": "https://www.jds.fr/strasbourg/foires-et-salons/foires/8eme-salon-bio-alsace-748103_A",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.2Ldjl7_2Km8b14ljBpEqCAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
       "price": "gratuit",
       "price_amount": 0,
       "currency": "EUR"
@@ -27,8 +27,8 @@
       "date": "2025-06-19T18:00:00Z",
       "venue": "Musée National",
       "city": "Bordeaux",
-      "url": "https://openagenda.com/event-3",
-      "image": "https://www.example.com/images/event1.jpg",
+      "url": "https://ladefensejazzfestival.hauts-de-seine.fr/",
+      "image": "https://th.bing.com/th/id/OIF.SHIBUMgmUIbp2jQt9ltEDg?w=274&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3",
       "price": "gratuit",
       "price_amount": 0,
       "currency": "EUR"
@@ -38,8 +38,8 @@
       "date": "2025-06-20T18:00:00Z",
       "venue": "Stade Municipal",
       "city": "Nice",
-      "url": "https://openagenda.com/event-4",
-      "image": "https://www.example.com/images/event2.jpg",
+      "url": "https://www.festivaldulivredeparis.fr/",
+      "image": "https://www.festivaldulivredeparis.fr/uploads/_73-dsc-2595-6806556bd07dd-6854098beac6d.webp",
       "price": "gratuit",
       "price_amount": 0,
       "currency": "EUR"
@@ -61,8 +61,8 @@
     "date": "2025-11-03T00:00:00Z",
     "venue": "Divers lieux dans Paris",
     "city": "Paris",
-    "url": "https://pitchfork.com/news/pitchfork-music-festival-paris-2025-dates-announced",
-    "image": "https://media.pitchfork.com/photos/xxxxxx/zoom/1920x1080.jpg",
+    "url": "https://pitchforkmusicfestival.fr/",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.ObfJb_YGiC68DS2taMScMAHaEq?rs=1&pid=ImgDetMain&o=7&rm=3",
     "price": "À venir",
     "price_amount": null,
     "currency": "EUR"
@@ -72,8 +72,8 @@
     "date": "2025-05-24T00:00:00Z",
     "venue": "Saint-Martin canal & arrondissements de Paris",
     "city": "Paris",
-    "url": "https://www.parisdiscoveryguide.com/paris-events-may.html",
-    "image": "https://parisdiscoveryguide.com/images/printemps-des-rues-2025.jpg",
+    "url": "https://www.leprintempsdesrues.com/",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.S9G6Ilm3OLlJn9n2wB-DzgHaKf?rs=1&pid=ImgDetMain&o=7&rm=3",
     "price": "Gratuit",
     "price_amount": 0,
     "currency": "EUR"
@@ -129,8 +129,8 @@
     "date": "2025-06-20T19:00:00Z",
     "venue": "Divers lieux en Île-de-France",
     "city": "Paris",
-    "url": "https://www.festivalidf.fr/",
-    "image": "https://www.festivalidf.fr/images/festival2025.jpg",
+    "url": "https://info-festival.net/festivals-par-region/ile-de-france/",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.4aSQ5pmgP8VmLXbduY70FwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
     "price": "Gratuit",
     "price_amount": 0,
     "currency": "EUR"
@@ -162,8 +162,8 @@
     "date": "2025-04-12T19:00:00Z",
     "venue": "Palais des Festivals",
     "city": "Cannes",
-    "url": "https://www.canneseries.com/",
-    "image": "https://www.canneseries.com/assets/images/2025/canneseries-banner.jpg",
+    "url": "https://canneseries.com/fr/",
+    "image": "https://www.rivieraloisirs.com/public/uploads/2020/07/171398069_132169878916560_2009631072947643649_n-1.jpg",
     "price": "Payant",
     "price_amount": 60,
     "currency": "EUR"
@@ -173,8 +173,8 @@
     "date": "2025-07-05T21:00:00Z",
     "venue": "Château Comtal",
     "city": "Carcassonne",
-    "url": "https://festivaldecarcassonne.fr/",
-    "image": "https://festivaldecarcassonne.fr/images/festival2025.jpg",
+    "url": "https://www.festivaldecarcassonne.fr/article-page/toute-la-programmation",
+    "image": "https://www.jds.fr/medias/image/festival-de-carcassonne-1-216995-1200-630.jpg",
     "price": "Payant",
     "price_amount": 40,
     "currency": "EUR"
@@ -195,8 +195,8 @@
     "date": "2025-07-05T18:30:00Z",
     "venue": "Divers lieux dans Avignon",
     "city": "Avignon",
-    "url": "https://festival-offavignon.com/",
-    "image": "https://festival-offavignon.com/images/2025.jpg",
+    "url": "https://www.festivaloffavignon.com/",
+    "image": "https://th.bing.com/th/id/R.05bbcceb7eba4a2379db2379240aa507?rik=WjgvGy5ZVzzkOg&pid=ImgRaw&r=0",
     "price": "Payant",
     "price_amount": 20,
     "currency": "EUR"
@@ -206,8 +206,8 @@
     "date": "2025-09-12T10:00:00Z",
     "venue": "Palais des Festivals",
     "city": "Hyères",
-    "url": "https://www.festivalmodephoto-hyeres.com/",
-    "image": "https://www.festivalmodephoto-hyeres.com/img/2025-banner.jpg",
+    "url": "https://villanoailles.com/festivals/37e-festival-international-de-mode-de-photographie-et-d-accessoires-de-mode-hyeres",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.r6fovjJuzacEqYj7lKtSnAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
     "price": "Payant",
     "price_amount": 15,
     "currency": "EUR"
@@ -219,8 +219,8 @@
     "date": "2025-07-01T19:00:00Z",
     "venue": "Port de Saint-Nazaire",
     "city": "Saint-Nazaire",
-    "url": "https://www.les-escales.fr/",
-    "image": "https://www.les-escales.fr/wp-content/uploads/2024/01/escales-banner.jpg",
+    "url": "https://www.festival-les-escales.com/",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.mADbANhihwuLHuEAKKZJ_QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
     "price": "Payant",
     "price_amount": 35,
     "currency": "EUR"
@@ -231,7 +231,7 @@
     "venue": "Domaine National de Saint-Cloud",
     "city": "Saint-Cloud",
     "url": "https://www.rockenseine.com/",
-    "image": "https://www.rockenseine.com/wp-content/uploads/2024/02/rockenseine-banner.jpg",
+    "image": "https://www.artistikrezo.com/wp-content/uploads/2023/05/RES2019_Ambiance_Zelie_Noreda20-scaled.jpg",
     "price": "Payant",
     "price_amount": 60,
     "currency": "EUR"
@@ -242,7 +242,7 @@
     "venue": "Arènes de Nîmes",
     "city": "Nîmes",
     "url": "https://www.festivaldenimes.com/",
-    "image": "https://www.festivaldenimes.com/images/festival2025.jpg",
+    "image": "https://th.bing.com/th/id/R.48bef6579573b00548476ed1706c6ef5?rik=O57rvP6C%2fPbqag&pid=ImgRaw&r=0",
     "price": "Payant",
     "price_amount": 45,
     "currency": "EUR"
@@ -253,7 +253,7 @@
     "venue": "Carhaix-Plouguer",
     "city": "Carhaix",
     "url": "https://www.vieillescharrues.asso.fr/",
-    "image": "https://www.vieillescharrues.asso.fr/media/vieillescharrues2025.jpg",
+    "image": "https://images.lesindesradios.fr/fit-in/1100x2000/filters:format(webp)/medias/jQeGQgXNld/image/affiche_coloree_pour_les_vieilles_charrues_2025_481821_920_0_F1732533259731.webp",
     "price": "Payant",
     "price_amount": 55,
     "currency": "EUR"
@@ -263,8 +263,8 @@
     "date": "2025-07-05T18:00:00Z",
     "venue": "Divers lieux dans Avignon",
     "city": "Avignon",
-    "url": "https://festival-avignon.com/",
-    "image": "https://festival-avignon.com/assets/images/avignon-festival.jpg",
+    "url": "https://www.linternaute.com/sortir/guide-des-loisirs/1314658-festival-d-avignon-2025-20-spectacles-du-off-a-voir-absolument/",
+    "image": "https://woody.cloudly.space/app/uploads/avignon/2023/04/thumbs/Le-festival-In-dAvignon-qui-sinvite-dans-la-Cours-dHonneur-du-Palais-des-Pape-1920x1080.jpeg",
     "price": "Payant",
     "price_amount": 40,
     "currency": "EUR"
@@ -275,7 +275,7 @@
     "venue": "Théâtre Antique de Lyon",
     "city": "Lyon",
     "url": "https://www.nuitsdefourviere.com/",
-    "image": "https://www.nuitsdefourviere.com/assets/images/lyon-festival.jpg",
+    "image": "https://cdn-s-www.leprogres.fr/images/61809F71-4B3D-44E1-A41C-90EB6B697887/NW_detail_M/title-1751206549.jpg",
     "price": "Payant",
     "price_amount": 50,
     "currency": "EUR"
@@ -286,7 +286,7 @@
     "venue": "Parc du Moustoir",
     "city": "Lorient",
     "url": "https://www.festival-interceltique.bzh/",
-    "image": "https://www.festival-interceltique.bzh/sites/default/files/styles/hero/public/2024-01/lorient-festival.jpg",
+    "image": "https://www.francesoir.fr/sites/default/files/styles/max_1300x1300/public/2019-08/0a2e9d3fbe3bae8c4b105edcfdfb0c43c4e70098.jpg?itok=Av4CnUD0",
     "price": "Payant",
     "price_amount": 30,
     "currency": "EUR"
@@ -297,7 +297,7 @@
     "venue": "Palais des Festivals",
     "city": "Cannes",
     "url": "https://www.festival-cannes.com/",
-    "image": "https://www.festival-cannes.com/assets/images/cannes-festival.jpg",
+    "image": "https://th.bing.com/th/id/R.9d34770f38277437e105dc8beadc8abf?rik=q%2ft%2fEauJ7fNaBg&pid=ImgRaw&r=0",
     "price": "Payant",
     "price_amount": 100,
     "currency": "EUR"
@@ -308,7 +308,7 @@
     "venue": "Théâtre Antique de Vienne",
     "city": "Vienne",
     "url": "https://www.jazzavienne.com/",
-    "image": "https://www.jazzavienne.com/images/jazz-vienne-2025.jpg",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.U-_OLyPCTZyPNNfgYwgRvAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
     "price": "Payant",
     "price_amount": 40,
     "currency": "EUR"
@@ -319,189 +319,21 @@
     "venue": "Parc de Valmy",
     "city": "Argelès-sur-Mer",
     "url": "https://www.lesdeferlantes.com/",
-    "image": "https://www.lesdeferlantes.com/assets/img/def25-2025.jpg",
+    "image": "https://images.lindependant.fr/api/v1/images/view/685fa817fd6254921d04da74/large/image.jpg?v=1",
     "price": "Payant",
     "price_amount": 50,
     "currency": "EUR"
   }
 ,
 
-    {
-      "title": "Marathon de Paris",
-      "date": "2025-07-16T18:00:00Z",
-      "venue": "Salle Polyvalente",
-      "city": "Rennes",
-      "url": "https://openagenda.com/event-30",
-      "image": "https://www.example.com/images/event2.jpg",
-      "price": "payant",
-      "price_amount": 63,
-      "currency": "EUR"
-    },
    
-  {
-    "title": "Festival Les Escales",
-    "date": "2025-07-01T19:00:00Z",
-    "venue": "Port de Saint-Nazaire",
-    "city": "Saint-Nazaire",
-    "url": "https://www.les-escales.fr/",
-    "image": "https://www.les-escales.fr/wp-content/uploads/2024/01/escales-banner.jpg",
-    "price": "Payant",
-    "price_amount": 35,
-    "currency": "EUR"
-  },
-  {
-    "title": "Rock en Seine",
-    "date": "2025-08-23T18:00:00Z",
-    "venue": "Domaine National de Saint-Cloud",
-    "city": "Saint-Cloud",
-    "url": "https://www.rockenseine.com/",
-    "image": "https://www.rockenseine.com/wp-content/uploads/2024/02/rockenseine-banner.jpg",
-    "price": "Payant",
-    "price_amount": 60,
-    "currency": "EUR"
-  },
-  {
-    "title": "Festival de Nîmes",
-    "date": "2025-07-10T20:00:00Z",
-    "venue": "Arènes de Nîmes",
-    "city": "Nîmes",
-    "url": "https://www.festivaldenimes.com/",
-    "image": "https://www.festivaldenimes.com/images/festival2025.jpg",
-    "price": "Payant",
-    "price_amount": 45,
-    "currency": "EUR"
-  },
-  {
-    "title": "Les Vieilles Charrues",
-    "date": "2025-07-17T17:00:00Z",
-    "venue": "Carhaix-Plouguer",
-    "city": "Carhaix",
-    "url": "https://www.vieillescharrues.asso.fr/",
-    "image": "https://www.vieillescharrues.asso.fr/media/vieillescharrues2025.jpg",
-    "price": "Payant",
-    "price_amount": 55,
-    "currency": "EUR"
-  },
-  {
-    "title": "Festival d'Avignon (spectacles de théâtre et musique)",
-    "date": "2025-07-05T18:00:00Z",
-    "venue": "Divers lieux dans Avignon",
-    "city": "Avignon",
-    "url": "https://festival-avignon.com/",
-    "image": "https://festival-avignon.com/assets/images/avignon-festival.jpg",
-    "price": "Payant",
-    "price_amount": 40,
-    "currency": "EUR"
-  },
-  {
-    "title": "Les Nuits de Fourvière",
-    "date": "2025-06-10T21:00:00Z",
-    "venue": "Théâtre Antique de Lyon",
-    "city": "Lyon",
-    "url": "https://www.nuitsdefourviere.com/",
-    "image": "https://www.nuitsdefourviere.com/assets/images/lyon-festival.jpg",
-    "price": "Payant",
-    "price_amount": 50,
-    "currency": "EUR"
-  },
-  {
-    "title": "Festival Interceltique de Lorient",
-    "date": "2025-08-01T16:00:00Z",
-    "venue": "Parc du Moustoir",
-    "city": "Lorient",
-    "url": "https://www.festival-interceltique.bzh/",
-    "image": "https://www.festival-interceltique.bzh/sites/default/files/styles/hero/public/2024-01/lorient-festival.jpg",
-    "price": "Payant",
-    "price_amount": 30,
-    "currency": "EUR"
-  },
-  {
-    "title": "Festival de Cannes (film et musique)",
-    "date": "2025-05-14T20:00:00Z",
-    "venue": "Palais des Festivals",
-    "city": "Cannes",
-    "url": "https://www.festival-cannes.com/",
-    "image": "https://www.festival-cannes.com/assets/images/cannes-festival.jpg",
-    "price": "Payant",
-    "price_amount": 100,
-    "currency": "EUR"
-  },
-  {
-    "title": "Festival Jazz à Vienne",
-    "date": "2025-07-04T19:30:00Z",
-    "venue": "Théâtre Antique de Vienne",
-    "city": "Vienne",
-    "url": "https://www.jazzavienne.com/",
-    "image": "https://www.jazzavienne.com/images/jazz-vienne-2025.jpg",
-    "price": "Payant",
-    "price_amount": 40,
-    "currency": "EUR"
-  },
-  {
-    "title": "Festival Les Déferlantes",
-    "date": "2025-07-15T18:00:00Z",
-    "venue": "Parc de Valmy",
-    "city": "Argelès-sur-Mer",
-    "url": "https://www.lesdeferlantes.com/",
-    "image": "https://www.lesdeferlantes.com/assets/img/def25-2025.jpg",
-    "price": "Payant",
-    "price_amount": 50,
-    "currency": "EUR"
-  }
-
-,
-  
-  {
-    "title": "Saint-Émilion Jazz Festival",
-    "date": "2025-07-15T18:00:00Z",
-    "venue": "Douves du Palais Cardinal",
-    "city": "Saint-Émilion",
-    "url": "https://www.seebordeaux.com/events/saint-emilion-jazz-festival-682223",
-    "image": "https://www.seebordeaux.com/events/saint-emilion-jazz-festival-682223",
-    "price": "Payant",
-    "price_amount": 25,
-    "currency": "EUR"
-  },
-  {
-    "title": "Jazz360 Festival",
-    "date": "2025-06-05T18:00:00Z",
-    "venue": "Divers lieux en Gironde",
-    "city": "Gironde",
-    "url": "https://www.festivaljazz360.fr/festival-jazz360-2025/",
-    "image": "https://www.festivaljazz360.fr/festival-jazz360-2025/",
-    "price": "Gratuit",
-    "price_amount": 0,
-    "currency": "EUR"
-  },
-  {
-    "title": "Jazz and Wine Bordeaux",
-    "date": "2025-06-01T18:00:00Z",
-    "venue": "Château Descas",
-    "city": "Bordeaux",
-    "url": "https://jazzandwine.info",
-    "image": "https://jazzandwine.info",
-    "price": "Payant",
-    "price_amount": 30,
-    "currency": "EUR"
-  },
-  {
-    "title": "We Call It Jazz – Bordeaux",
-    "date": "2025-05-15T18:00:00Z",
-    "venue": "La Faïencerie",
-    "city": "Bordeaux",
-    "url": "https://feverup.com/m/250321/en",
-    "image": "https://feverup.com/m/250321/en",
-    "price": "Payant",
-    "price_amount": 20,
-    "currency": "EUR"
-  },
   {
     "title": "Nice Jazz Festival",
     "date": "2025-07-24T18:00:00Z",
     "venue": "Place Masséna & Théâtre de Verdure",
     "city": "Nice",
     "url": "https://nicejazzfestival.fr",
-    "image": "https://nicejazzfestival.fr",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.CmWmXTv2Vui8mUUfDdKVLQHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3",
     "price": "Payant",
     "price_amount": 40,
     "currency": "EUR"
@@ -512,7 +344,7 @@
     "venue": "Pinède Gould",
     "city": "Juan-les-Pins",
     "url": "https://www.jazzajuan.com",
-    "image": "https://www.jazzajuan.com",
+    "image": "https://www.jds.fr/medias/image/jazz-a-juan-148490-1200-630.jpg",
     "price": "Payant",
     "price_amount": 35,
     "currency": "EUR"
@@ -523,45 +355,12 @@
     "venue": "Château Théâtre Descas",
     "city": "Bordeaux",
     "url": "https://www.infoconcert.com/festival/jazz-a-descas-16633/concerts.html",
-    "image": "https://www.infoconcert.com/festival/jazz-a-descas-16633/concerts.html",
+    "image": "https://www.guide-bordeaux-gironde.com/_bibli/agenda/118753/images/affiche-jazz-a-descas.jpg?v=listeAgenda",
     "price": "Payant",
     "price_amount": 25,
     "currency": "EUR"
-  },
-  {
-    "title": "Festival Coutras Jazz Vibration",
-    "date": "2025-07-19T09:30:00Z",
-    "venue": "Salle Des Fêtes Le Sully",
-    "city": "Coutras",
-    "url": "https://allevents.in/bordeaux/festival-coutras-jazz-vibration/200028323085700",
-    "image": "https://allevents.in/bordeaux/festival-coutras-jazz-vibration/200028323085700",
-    "price": "Gratuit",
-    "price_amount": 0,
-    "currency": "EUR"
-  },
-  {
-    "title": "Les Grands Crus Musicaux",
-    "date": "2025-07-12T18:00:00Z",
-    "venue": "Château Pape Clément",
-    "city": "Pessac",
-    "url": "http://www.grandscrusmusicaux.com",
-    "image": "http://www.grandscrusmusicaux.com",
-    "price": "Payant",
-    "price_amount": 50,
-    "currency": "EUR"
-  },
-  {
-    "title": "Festival Jazz in Marciac",
-    "date": "2025-07-21T18:00:00Z",
-    "venue": "Place de l'Astarac",
-    "city": "Marciac",
-    "url": "https://www.jazzinmarciac.com/",
-    "image": "https://www.jazzinmarciac.com/",
-    "price": "Payant",
-    "price_amount": 45,
-    "currency": "EUR"
   }
-
+  
 
   ]
 }

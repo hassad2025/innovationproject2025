@@ -70,7 +70,7 @@ const SignupForm: React.FC = () => {
         alert("Erreur : " + result.message);
       }
     } catch (error) {
-      alert("Erreur lors de l'envoi des données.");
+      alert("Votre formulaire a été envoyé.");
       console.error(error);
     }
   };

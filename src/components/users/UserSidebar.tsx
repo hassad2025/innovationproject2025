@@ -23,10 +23,6 @@ export default function UserSidebar() {
         👤 Mon profil
       </Link>
 
-      <Link href="/users/Bookings" className={`rounded-md px-4 py-2 font-medium ${isActive('/users/bookings')}`}>
-        🎟️ Mes réservations
-      </Link>
-
       <Link href="/users/favorites" className={`rounded-md px-4 py-2 font-medium ${isActive('/users/favorites')}`}>
         ⭐ Favoris
       </Link>
@@ -53,11 +49,15 @@ export default function UserSidebar() {
       </Link>
 
       <button
-        onClick={() => alert('Déconnexion en cours...')}
-        className="mt-auto rounded-md px-4 py-2 font-medium text-red-600 hover:bg-red-100"
-      >
-        🚪 Déconnexion
-      </button>
+  onClick={() => {
+    alert('Déconnexion en cours...');
+    window.location.href = '/login'; // ← Redirection ici
+  }}
+  className="mt-auto rounded-md px-4 py-2 font-medium text-red-600 hover:bg-red-100"
+>
+  🚪 Déconnexion
+</button>
+
     </nav>
   )
 }
