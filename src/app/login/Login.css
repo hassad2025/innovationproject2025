@@ -1,0 +1,85 @@
+/* Login.css - Gris et Beige */
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0ebe3; /* beige clair */
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-box {
+  background: #ffffff; /* blanc */
+  padding: 2.5rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5a5a5a; /* gris moyen */
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.input-group {
+  margin-bottom: 1.25rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #7a7a7a; /* gris un peu plus clair */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1.8px solid #c4bdae; /* beige/gris clair */
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #faf6f0; /* très clair beige */
+  color: #4d4d4d; /* texte gris foncé */
+}
+
+.input-group input:focus {
+  border-color: #a8987d; /* beige moyen */
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #a8987d; /* beige moyen */
+  color: white;
+  border: none;
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.login-button:hover {
+  background-color: #8b7f60; /* beige plus foncé */
+}
+
+.error-message {
+  color: #bf3e3e; /* rouge foncé pour erreur */
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 0.9rem;
+}

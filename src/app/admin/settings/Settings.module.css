@@ -1,0 +1,117 @@
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgb(0 0 0 / 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #334155;
+}
+
+
+
+
+.checkboxGroup {
+  border: 1px solid #e2e8f0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #475569;
+}
+
+.checkboxGroup legend {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.checkboxGroup label {
+  flex-direction: row;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.error {
+  color: #ef4444;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.success {
+  color: #22c55e;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.saveBtn,
+.resetBtn {
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 11px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saveBtn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.saveBtn:hover {
+  background-color: #1d4ed8;
+}
+
+.resetBtn {
+  background-color: #e2e8f0;
+  color: #475569;
+}
+
+.resetBtn:hover {
+  background-color: #cbd5e1;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .saveBtn,
+  .resetBtn {
+    width: 100%;
+  }
+}

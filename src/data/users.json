@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "prenom": "Amélie",
+    "nom": "Richard",
+    "email": "amelie.richard@example.com",
+    "phone": "+33 6 12 34 56 78",
+    "status": "Actif",
+    "password": "amelie123",
+    "role": "organisateur"
+  },
+  {
+    "id": 2,
+    "prenom": "Lucas",
+    "nom": "Durand",
+    "email": "lucas.durand@example.com",
+    "phone": "+33 6 98 76 54 32",
+    "status": "Inactif",
+    "password": "lucas456",
+    "role": "utilisateur"
+  },
+  {
+    "id": 3,
+    "prenom": "Emma",
+    "nom": "Laurent",
+    "email": "emma.laurent@example.com",
+    "phone": "+33 7 11 22 33 44",
+    "status": "Actif",
+    "password": "emma789",
+    "role": "administrateur"
+  },
+  {
+    "id": 4,
+    "prenom": "Noah",
+    "nom": "Lefevre",
+    "email": "noah.lefevre@example.com",
+    "phone": "+33 6 55 44 33 22",
+    "status": "Actif",
+    "password": "noah321",
+    "role": "utilisateur"
+  },
+  {
+    "id": 5,
+    "prenom": "Camille",
+    "nom": "Petit",
+    "email": "camille.petit@example.com",
+    "phone": "+33 6 77 88 99 00",
+    "status": "Inactif",
+    "password": "camille654",
+    "role": "utilisateur"
+  },
+  {
+    "id": 6,
+    "prenom": "Hugo",
+    "nom": "Robert",
+    "email": "hugo.robert@example.com",
+    "phone": "+33 6 44 55 66 77",
+    "status": "Actif",
+    "password": "hugo987",
+    "role": "organisateur"
+  },
+  {
+    "id": 7,
+    "prenom": "Léa",
+    "nom": "Morel",
+    "email": "lea.morel@example.com",
+    "phone": "+33 6 33 22 11 00",
+    "status": "Actif",
+    "password": "lea111",
+    "role": "utilisateur"
+  },
+  {
+    "id": 8,
+    "prenom": "Tom",
+    "nom": "Blanchard",
+    "email": "tom.blanchard@example.com",
+    "phone": "+33 6 88 77 66 55",
+    "status": "Inactif",
+    "password": "tom222",
+    "role": "utilisateur"
+  },
+  {
+    "id": 9,
+    "prenom": "Jules",
+    "nom": "Faure",
+    "email": "jules.faure@example.com",
+    "phone": "+33 6 99 88 77 66",
+    "status": "Actif",
+    "password": "jules333",
+    "role": "organisateur"
+  },
+  {
+    "id": 10,
+    "prenom": "Zoé",
+    "nom": "Giraud",
+    "email": "zoe.giraud@example.com",
+    "phone": "+33 6 11 22 33 44",
+    "status": "Actif",
+    "password": "zoe444",
+    "role": "utilisateur"
+  }
+]

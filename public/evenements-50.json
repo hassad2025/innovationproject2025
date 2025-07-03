@@ -1,0 +1,567 @@
+{
+  "events": [
+    {
+      "title": "Festival d’Avignon",
+      "date": "2025-06-17T18:00:00Z",
+      "venue": "Château Historique",
+      "city": "Avignon",
+      "url": "https://festival-avignon.com/",
+      "image": "data:image/jpeg;base64,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",
+      "price": "payant",
+      "price_amount": 42,
+      "currency": "EUR"
+    },
+    {
+      "title": "Salon bio",
+      "date": "2025-06-18T18:00:00Z",
+      "venue": "Grand Théâtre",
+      "city": "Strasbourg",
+      "url": "salon-bio-strasbourg.com",
+      "image": "https://www.example.com/images/event1.jpg",
+      "price": "gratuit",
+      "price_amount": 0,
+      "currency": "EUR"
+    },
+    {
+      "title": "Festival de Jazz",
+      "date": "2025-06-19T18:00:00Z",
+      "venue": "Musée National",
+      "city": "Bordeaux",
+      "url": "https://openagenda.com/event-3",
+      "image": "https://www.example.com/images/event1.jpg",
+      "price": "gratuit",
+      "price_amount": 0,
+      "currency": "EUR"
+    },
+    {
+      "title": "Salon du Livre",
+      "date": "2025-06-20T18:00:00Z",
+      "venue": "Stade Municipal",
+      "city": "Nice",
+      "url": "https://openagenda.com/event-4",
+      "image": "https://www.example.com/images/event2.jpg",
+      "price": "gratuit",
+      "price_amount": 0,
+      "currency": "EUR"
+    },
+    {
+      "title": "Soirée astronomie",
+      "date": "2025-07-05T15:30:00Z",
+      "venue": "49 avenue du Général de Gaulle",
+      "city": "Reims",
+      "url": "https://www.marne.fr/agenda/planetarium-cette-nuit-sous-les-etoiles/",
+      "image": "https://www.marne.fr/wp-content/uploads/2024/10/Ciel-etoile-httpspixabay.comfrvoie-lact-C3-A9e-ciel-C3-A9toil-C3-A9-2695569-1200x630.jpg",
+      "price": "payant",
+      "price_amount": 28,
+      "currency": "EUR"
+    },
+   
+  {
+    "title": "Pitchfork Music Festival Paris",
+    "date": "2025-11-03T00:00:00Z",
+    "venue": "Divers lieux dans Paris",
+    "city": "Paris",
+    "url": "https://pitchfork.com/news/pitchfork-music-festival-paris-2025-dates-announced",
+    "image": "https://media.pitchfork.com/photos/xxxxxx/zoom/1920x1080.jpg",
+    "price": "À venir",
+    "price_amount": null,
+    "currency": "EUR"
+  },
+  {
+    "title": "Le Printemps des Rues",
+    "date": "2025-05-24T00:00:00Z",
+    "venue": "Saint-Martin canal & arrondissements de Paris",
+    "city": "Paris",
+    "url": "https://www.parisdiscoveryguide.com/paris-events-may.html",
+    "image": "https://parisdiscoveryguide.com/images/printemps-des-rues-2025.jpg",
+    "price": "Gratuit",
+    "price_amount": 0,
+    "currency": "EUR"
+  },
+  {
+    "title": "Paris Beer Festival",
+    "date": "2025-05-19T00:00:00Z",
+    "venue": "Ground Control (81 Rue de Charolais, Paris 12e)",
+    "city": "Paris",
+    "url": "https://www.parisdiscoveryguide.com/paris-events-may.html",
+    "image": "https://www.parisdiscoveryguide.com/image-files/x1000-sacre-coeur-rooftops.jpg.pagespeed.ic.orAzYnHXh1.webp",
+    "price": "Payant",
+    "price_amount": null,
+    "currency": "EUR"
+  },
+  {
+    "title": "Nuits Sonores",
+    "date": "2025-05-28T00:00:00Z",
+    "venue": "Divers lieux dans Lyon",
+    "city": "Lyon",
+    "url": "https://nuits-sonores.com",
+    "image": "https://nuits-sonores.com/wp-content/uploads/2025/06/Day-4-NEF-%C2%A9-Juliette-Valero-@juliettevlr-1.jpg",
+    "price": "Payant",
+    "price_amount": null,
+    "currency": "EUR"
+  },
+  {
+    "title": "Cinéma du Réel",
+    "date": "2025-03-22T00:00:00Z",
+    "venue": "Centre Pompidou & cinémas partenaires",
+    "city": "Paris",
+    "url": "https://www.cinemadureel.org/",
+    "image": "https://www.cinemadureel.org/wp-content/uploads/2025/06/logo-site-20262.svg",
+    "price": "Payant",
+    "price_amount": null,
+    "currency": "EUR"
+  }
+,
+
+  {
+    "title": "Festival Les Francofolies",
+    "date": "2025-07-09T20:00:00Z",
+    "venue": "Parc Charruyer",
+    "city": "La Rochelle",
+    "url": "https://www.francofolies.fr/",
+    "image": "https://www.francofolies.fr/wp-content/themes/francofolies/assets/img/logo.svg",
+    "price": "Payant",
+    "price_amount": 50,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival d’Île-de-France",
+    "date": "2025-06-20T19:00:00Z",
+    "venue": "Divers lieux en Île-de-France",
+    "city": "Paris",
+    "url": "https://www.festivalidf.fr/",
+    "image": "https://www.festivalidf.fr/images/festival2025.jpg",
+    "price": "Gratuit",
+    "price_amount": 0,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival de la BD d’Angoulême",
+    "date": "2025-01-24T10:00:00Z",
+    "venue": "Centre-ville d’Angoulême",
+    "city": "Angoulême",
+    "url": "https://www.bdangouleme.com/",
+    "image": "https://www.bdangouleme.com/storage/slider_home/ag-fibd-2023-02420-0-0-0.jpg",
+    "price": "Gratuit",
+    "price_amount": 0,
+    "currency": "EUR"
+  },
+  {
+    "title": "Fête de la Musique",
+    "date": "2025-06-21T18:00:00Z",
+    "venue": "Partout en France",
+    "city": "Paris",
+    "url": "https://fetedelamusique.culture.gouv.fr/",
+    "image": "https://fetedelamusique.culture.gouv.fr/var/culture/storage/images/_aliases/banner-edition_retina/0/6/9/1/123701960-1-fre-FR/b19ca42fd674-01-bloc-illu.jpg",
+    "price": "Gratuit",
+    "price_amount": 0,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival de Canneseries",
+    "date": "2025-04-12T19:00:00Z",
+    "venue": "Palais des Festivals",
+    "city": "Cannes",
+    "url": "https://www.canneseries.com/",
+    "image": "https://www.canneseries.com/assets/images/2025/canneseries-banner.jpg",
+    "price": "Payant",
+    "price_amount": 60,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival de Carcassonne",
+    "date": "2025-07-05T21:00:00Z",
+    "venue": "Château Comtal",
+    "city": "Carcassonne",
+    "url": "https://festivaldecarcassonne.fr/",
+    "image": "https://festivaldecarcassonne.fr/images/festival2025.jpg",
+    "price": "Payant",
+    "price_amount": 40,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival du Film de Locarno (Suisse, proche frontière France)",
+    "date": "2025-08-06T20:00:00Z",
+    "venue": "Piazza Grande",
+    "city": "Locarno",
+    "url": "https://www.locarnofestival.ch/",
+    "image": "https://d19ip46tmjo02o.cloudfront.net/LFFimg/gzBLtMxR2P6EMOCoAcS8jmwtKhmPq0PYtPg0vqMzFeU/resize:fill/width:1440/height:673/gravity:sm/enlarge:1/cachebuster:184C096398C297BC3C5B2FA4F5ABF466/aHR0cHM6Ly93d3cubG9jYXJub2Zlc3RpdmFsLmNoL2FwaS9jcnltcy90aHVtYm9yL3NvdXJjZS9kYW0vZjUyY2Y0NTMtYzA3Ni00MjdmLTkxODEtMGFkYzU5Yjg4OTA1LzE4NEMwOTYzOThDMjk3QkMzQzVCMkZBNEY1QUJGNDY2P21nbmxVc2VySWQ9dGh1bWJvciZtZ25sVXNlclBTV0Q9cm9ibXVodA.jpg",
+    "price": "Payant",
+    "price_amount": 30,
+    "currency": "CHF"
+  },
+  {
+    "title": "Festival de théâtre d’Avignon OFF",
+    "date": "2025-07-05T18:30:00Z",
+    "venue": "Divers lieux dans Avignon",
+    "city": "Avignon",
+    "url": "https://festival-offavignon.com/",
+    "image": "https://festival-offavignon.com/images/2025.jpg",
+    "price": "Payant",
+    "price_amount": 20,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival International de Mode et de Photographie",
+    "date": "2025-09-12T10:00:00Z",
+    "venue": "Palais des Festivals",
+    "city": "Hyères",
+    "url": "https://www.festivalmodephoto-hyeres.com/",
+    "image": "https://www.festivalmodephoto-hyeres.com/img/2025-banner.jpg",
+    "price": "Payant",
+    "price_amount": 15,
+    "currency": "EUR"
+  }
+,
+
+  {
+    "title": "Festival Les Escales",
+    "date": "2025-07-01T19:00:00Z",
+    "venue": "Port de Saint-Nazaire",
+    "city": "Saint-Nazaire",
+    "url": "https://www.les-escales.fr/",
+    "image": "https://www.les-escales.fr/wp-content/uploads/2024/01/escales-banner.jpg",
+    "price": "Payant",
+    "price_amount": 35,
+    "currency": "EUR"
+  },
+  {
+    "title": "Rock en Seine",
+    "date": "2025-08-23T18:00:00Z",
+    "venue": "Domaine National de Saint-Cloud",
+    "city": "Saint-Cloud",
+    "url": "https://www.rockenseine.com/",
+    "image": "https://www.rockenseine.com/wp-content/uploads/2024/02/rockenseine-banner.jpg",
+    "price": "Payant",
+    "price_amount": 60,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival de Nîmes",
+    "date": "2025-07-10T20:00:00Z",
+    "venue": "Arènes de Nîmes",
+    "city": "Nîmes",
+    "url": "https://www.festivaldenimes.com/",
+    "image": "https://www.festivaldenimes.com/images/festival2025.jpg",
+    "price": "Payant",
+    "price_amount": 45,
+    "currency": "EUR"
+  },
+  {
+    "title": "Les Vieilles Charrues",
+    "date": "2025-07-17T17:00:00Z",
+    "venue": "Carhaix-Plouguer",
+    "city": "Carhaix",
+    "url": "https://www.vieillescharrues.asso.fr/",
+    "image": "https://www.vieillescharrues.asso.fr/media/vieillescharrues2025.jpg",
+    "price": "Payant",
+    "price_amount": 55,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival d'Avignon (spectacles de théâtre et musique)",
+    "date": "2025-07-05T18:00:00Z",
+    "venue": "Divers lieux dans Avignon",
+    "city": "Avignon",
+    "url": "https://festival-avignon.com/",
+    "image": "https://festival-avignon.com/assets/images/avignon-festival.jpg",
+    "price": "Payant",
+    "price_amount": 40,
+    "currency": "EUR"
+  },
+  {
+    "title": "Les Nuits de Fourvière",
+    "date": "2025-06-10T21:00:00Z",
+    "venue": "Théâtre Antique de Lyon",
+    "city": "Lyon",
+    "url": "https://www.nuitsdefourviere.com/",
+    "image": "https://www.nuitsdefourviere.com/assets/images/lyon-festival.jpg",
+    "price": "Payant",
+    "price_amount": 50,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Interceltique de Lorient",
+    "date": "2025-08-01T16:00:00Z",
+    "venue": "Parc du Moustoir",
+    "city": "Lorient",
+    "url": "https://www.festival-interceltique.bzh/",
+    "image": "https://www.festival-interceltique.bzh/sites/default/files/styles/hero/public/2024-01/lorient-festival.jpg",
+    "price": "Payant",
+    "price_amount": 30,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival de Cannes (film et musique)",
+    "date": "2025-05-14T20:00:00Z",
+    "venue": "Palais des Festivals",
+    "city": "Cannes",
+    "url": "https://www.festival-cannes.com/",
+    "image": "https://www.festival-cannes.com/assets/images/cannes-festival.jpg",
+    "price": "Payant",
+    "price_amount": 100,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Jazz à Vienne",
+    "date": "2025-07-04T19:30:00Z",
+    "venue": "Théâtre Antique de Vienne",
+    "city": "Vienne",
+    "url": "https://www.jazzavienne.com/",
+    "image": "https://www.jazzavienne.com/images/jazz-vienne-2025.jpg",
+    "price": "Payant",
+    "price_amount": 40,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Les Déferlantes",
+    "date": "2025-07-15T18:00:00Z",
+    "venue": "Parc de Valmy",
+    "city": "Argelès-sur-Mer",
+    "url": "https://www.lesdeferlantes.com/",
+    "image": "https://www.lesdeferlantes.com/assets/img/def25-2025.jpg",
+    "price": "Payant",
+    "price_amount": 50,
+    "currency": "EUR"
+  }
+,
+
+    {
+      "title": "Marathon de Paris",
+      "date": "2025-07-16T18:00:00Z",
+      "venue": "Salle Polyvalente",
+      "city": "Rennes",
+      "url": "https://openagenda.com/event-30",
+      "image": "https://www.example.com/images/event2.jpg",
+      "price": "payant",
+      "price_amount": 63,
+      "currency": "EUR"
+    },
+   
+  {
+    "title": "Festival Les Escales",
+    "date": "2025-07-01T19:00:00Z",
+    "venue": "Port de Saint-Nazaire",
+    "city": "Saint-Nazaire",
+    "url": "https://www.les-escales.fr/",
+    "image": "https://www.les-escales.fr/wp-content/uploads/2024/01/escales-banner.jpg",
+    "price": "Payant",
+    "price_amount": 35,
+    "currency": "EUR"
+  },
+  {
+    "title": "Rock en Seine",
+    "date": "2025-08-23T18:00:00Z",
+    "venue": "Domaine National de Saint-Cloud",
+    "city": "Saint-Cloud",
+    "url": "https://www.rockenseine.com/",
+    "image": "https://www.rockenseine.com/wp-content/uploads/2024/02/rockenseine-banner.jpg",
+    "price": "Payant",
+    "price_amount": 60,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival de Nîmes",
+    "date": "2025-07-10T20:00:00Z",
+    "venue": "Arènes de Nîmes",
+    "city": "Nîmes",
+    "url": "https://www.festivaldenimes.com/",
+    "image": "https://www.festivaldenimes.com/images/festival2025.jpg",
+    "price": "Payant",
+    "price_amount": 45,
+    "currency": "EUR"
+  },
+  {
+    "title": "Les Vieilles Charrues",
+    "date": "2025-07-17T17:00:00Z",
+    "venue": "Carhaix-Plouguer",
+    "city": "Carhaix",
+    "url": "https://www.vieillescharrues.asso.fr/",
+    "image": "https://www.vieillescharrues.asso.fr/media/vieillescharrues2025.jpg",
+    "price": "Payant",
+    "price_amount": 55,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival d'Avignon (spectacles de théâtre et musique)",
+    "date": "2025-07-05T18:00:00Z",
+    "venue": "Divers lieux dans Avignon",
+    "city": "Avignon",
+    "url": "https://festival-avignon.com/",
+    "image": "https://festival-avignon.com/assets/images/avignon-festival.jpg",
+    "price": "Payant",
+    "price_amount": 40,
+    "currency": "EUR"
+  },
+  {
+    "title": "Les Nuits de Fourvière",
+    "date": "2025-06-10T21:00:00Z",
+    "venue": "Théâtre Antique de Lyon",
+    "city": "Lyon",
+    "url": "https://www.nuitsdefourviere.com/",
+    "image": "https://www.nuitsdefourviere.com/assets/images/lyon-festival.jpg",
+    "price": "Payant",
+    "price_amount": 50,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Interceltique de Lorient",
+    "date": "2025-08-01T16:00:00Z",
+    "venue": "Parc du Moustoir",
+    "city": "Lorient",
+    "url": "https://www.festival-interceltique.bzh/",
+    "image": "https://www.festival-interceltique.bzh/sites/default/files/styles/hero/public/2024-01/lorient-festival.jpg",
+    "price": "Payant",
+    "price_amount": 30,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival de Cannes (film et musique)",
+    "date": "2025-05-14T20:00:00Z",
+    "venue": "Palais des Festivals",
+    "city": "Cannes",
+    "url": "https://www.festival-cannes.com/",
+    "image": "https://www.festival-cannes.com/assets/images/cannes-festival.jpg",
+    "price": "Payant",
+    "price_amount": 100,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Jazz à Vienne",
+    "date": "2025-07-04T19:30:00Z",
+    "venue": "Théâtre Antique de Vienne",
+    "city": "Vienne",
+    "url": "https://www.jazzavienne.com/",
+    "image": "https://www.jazzavienne.com/images/jazz-vienne-2025.jpg",
+    "price": "Payant",
+    "price_amount": 40,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Les Déferlantes",
+    "date": "2025-07-15T18:00:00Z",
+    "venue": "Parc de Valmy",
+    "city": "Argelès-sur-Mer",
+    "url": "https://www.lesdeferlantes.com/",
+    "image": "https://www.lesdeferlantes.com/assets/img/def25-2025.jpg",
+    "price": "Payant",
+    "price_amount": 50,
+    "currency": "EUR"
+  }
+
+,
+  
+  {
+    "title": "Saint-Émilion Jazz Festival",
+    "date": "2025-07-15T18:00:00Z",
+    "venue": "Douves du Palais Cardinal",
+    "city": "Saint-Émilion",
+    "url": "https://www.seebordeaux.com/events/saint-emilion-jazz-festival-682223",
+    "image": "https://www.seebordeaux.com/events/saint-emilion-jazz-festival-682223",
+    "price": "Payant",
+    "price_amount": 25,
+    "currency": "EUR"
+  },
+  {
+    "title": "Jazz360 Festival",
+    "date": "2025-06-05T18:00:00Z",
+    "venue": "Divers lieux en Gironde",
+    "city": "Gironde",
+    "url": "https://www.festivaljazz360.fr/festival-jazz360-2025/",
+    "image": "https://www.festivaljazz360.fr/festival-jazz360-2025/",
+    "price": "Gratuit",
+    "price_amount": 0,
+    "currency": "EUR"
+  },
+  {
+    "title": "Jazz and Wine Bordeaux",
+    "date": "2025-06-01T18:00:00Z",
+    "venue": "Château Descas",
+    "city": "Bordeaux",
+    "url": "https://jazzandwine.info",
+    "image": "https://jazzandwine.info",
+    "price": "Payant",
+    "price_amount": 30,
+    "currency": "EUR"
+  },
+  {
+    "title": "We Call It Jazz – Bordeaux",
+    "date": "2025-05-15T18:00:00Z",
+    "venue": "La Faïencerie",
+    "city": "Bordeaux",
+    "url": "https://feverup.com/m/250321/en",
+    "image": "https://feverup.com/m/250321/en",
+    "price": "Payant",
+    "price_amount": 20,
+    "currency": "EUR"
+  },
+  {
+    "title": "Nice Jazz Festival",
+    "date": "2025-07-24T18:00:00Z",
+    "venue": "Place Masséna & Théâtre de Verdure",
+    "city": "Nice",
+    "url": "https://nicejazzfestival.fr",
+    "image": "https://nicejazzfestival.fr",
+    "price": "Payant",
+    "price_amount": 40,
+    "currency": "EUR"
+  },
+  {
+    "title": "Jazz à Juan",
+    "date": "2025-07-10T18:00:00Z",
+    "venue": "Pinède Gould",
+    "city": "Juan-les-Pins",
+    "url": "https://www.jazzajuan.com",
+    "image": "https://www.jazzajuan.com",
+    "price": "Payant",
+    "price_amount": 35,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Jazz A Descas",
+    "date": "2025-04-20T18:00:00Z",
+    "venue": "Château Théâtre Descas",
+    "city": "Bordeaux",
+    "url": "https://www.infoconcert.com/festival/jazz-a-descas-16633/concerts.html",
+    "image": "https://www.infoconcert.com/festival/jazz-a-descas-16633/concerts.html",
+    "price": "Payant",
+    "price_amount": 25,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Coutras Jazz Vibration",
+    "date": "2025-07-19T09:30:00Z",
+    "venue": "Salle Des Fêtes Le Sully",
+    "city": "Coutras",
+    "url": "https://allevents.in/bordeaux/festival-coutras-jazz-vibration/200028323085700",
+    "image": "https://allevents.in/bordeaux/festival-coutras-jazz-vibration/200028323085700",
+    "price": "Gratuit",
+    "price_amount": 0,
+    "currency": "EUR"
+  },
+  {
+    "title": "Les Grands Crus Musicaux",
+    "date": "2025-07-12T18:00:00Z",
+    "venue": "Château Pape Clément",
+    "city": "Pessac",
+    "url": "http://www.grandscrusmusicaux.com",
+    "image": "http://www.grandscrusmusicaux.com",
+    "price": "Payant",
+    "price_amount": 50,
+    "currency": "EUR"
+  },
+  {
+    "title": "Festival Jazz in Marciac",
+    "date": "2025-07-21T18:00:00Z",
+    "venue": "Place de l'Astarac",
+    "city": "Marciac",
+    "url": "https://www.jazzinmarciac.com/",
+    "image": "https://www.jazzinmarciac.com/",
+    "price": "Payant",
+    "price_amount": 45,
+    "currency": "EUR"
+  }
+
+
+  ]
+}

@@ -1,0 +1,62 @@
+.about-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0ebe3; /* beige clair */
+  color: #4a4a4a; /* gris foncé */
+  line-height: 1.7;
+}
+
+.about-section {
+  background-color: #faf6f0; /* beige très clair */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #8b7f60; /* beige moyen */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-section h3 {
+  font-size: 1.5rem;
+  color: #7a7156; /* beige/gris moyen */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555555; /* gris moyen */
+}
+
+.about-section ul {
+  padding-left: 1.5rem;
+  list-style: disc;
+  color: #555555;
+}
+
+.about-section ul li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.about-section strong {
+  font-weight: 600;
+  color: #6b5e3c; /* beige foncé */
+}
+
+.about-section a {
+  color: #a8987d; /* beige moyen */
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+  color: #8b7f60; /* beige plus foncé */
+}

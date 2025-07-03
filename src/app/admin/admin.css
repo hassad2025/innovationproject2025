@@ -1,0 +1,202 @@
+/* globals.css */
+
+/* Reset minimaliste */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9fafb; /* Gris très clair */
+  color: #1f2937; /* Gris foncé pour le texte */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #4f46e5; /* Indigo */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #3730a3; /* Indigo foncé */
+  outline: none;
+  text-decoration: underline;
+}
+
+/* Scrollbar customisée (moderne) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e7eb; /* Gris clair */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4f46e5; /* Indigo */
+  border-radius: 4px;
+  border: 2px solid #e5e7eb;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  color: #111827; /* Gris très foncé */
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+/* Boutons */
+button {
+  cursor: pointer;
+  background-color: #4f46e5; /* Indigo */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #4338ca;
+  box-shadow: 0 0 8px rgba(67, 56, 202, 0.6);
+  outline: none;
+}
+
+/* Form inputs */
+input, select, textarea {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.5);
+}
+
+/* Container général */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Sidebar styles à compléter (tu peux l’ajouter dans ton composant directement) */
+aside {
+  background-color: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  transition: width 0.3s ease-in-out;
+}
+
+/* Utilities */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* Text colors */
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-indigo-600 {
+  color: #4f46e5;
+}
+
+.text-indigo-700 {
+  color: #4338ca;
+}
+
+/* Background colors */
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.bg-indigo-50 {
+  background-color: #eef2ff;
+}
+
+/* Rounded corners */
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+/* Spacing */
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+/* Hover and focus for nav links */
+nav a:hover {
+  background-color: #eef2ff; /* Indigo clair */
+  color: #4338ca; /* Indigo foncé */
+  text-decoration: none;
+}
+
+nav a:focus {
+  outline: 2px solid #a5b4fc;
+  outline-offset: 2px;
+  background-color: #e0e7ff;
+}
+
+/* Transition utility */
+.transition-all {
+  transition: all 0.3s ease;
+}

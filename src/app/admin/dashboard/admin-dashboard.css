@@ -1,0 +1,126 @@
+/* admin-dashboard.css */
+
+/* Conteneur principal */
+.admin-dashboard-container {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* léger fond gris */
+}
+
+/* Titre principal */
+.admin-dashboard-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Grille des cartes statistiques */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Style des cartes */
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border-radius: 0.75rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* En-tête des cartes */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+/* Titre des cartes */
+.card-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+/* Cercle icône */
+.icon-circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Contenu des cartes */
+.card-content {
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #2c2c2c;
+  text-align: center;
+}
+
+/* Couleurs personnalisées pour icônes */
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+.bg-green-600 {
+  background-color: #16a34a;
+}
+.bg-yellow-500 {
+  background-color: #eab308;
+}
+.bg-gray-700 {
+  background-color: #374151;
+}
+
+/* Carte graphique */
+.chart-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  padding: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.chart-card:hover {
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* Titre du graphique */
+.chart-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 1rem;
+  text-align: center;
+}
