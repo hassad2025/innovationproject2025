@@ -11,7 +11,7 @@ export default function EventCard({ event }: { event: Event }) {
         <EventStatusBadge statut={event.statut} />
       </div>
       <p className="text-gray-600 text-sm">{event.description}</p>
-      <p className="text-sm text-gray-500">Lieu : {event.lieu} – {event.date} à {event.heure}</p>
+      <p className="text-sm text-gray-500">Lieu : {event.location} – {event.date} à {event.heure}</p>
       <p className="text-sm text-gray-500">Billets vendus : {event.billetsVendus} / {event.billetsDisponibles}</p>
 
       <div className="flex gap-3 mt-2">

@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from "react";
@@ -29,7 +28,6 @@ export default function AdminSettingsPage() {
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // Validation simple
   const validate = () => {
     if (!settings.siteName.trim()) return "Le nom du site est requis.";
     if (!settings.contactEmail.match(/^\S+@\S+\.\S+$/))
@@ -45,7 +43,10 @@ export default function AdminSettingsPage() {
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
     >
   ) => {
-    const { name, value, type, checked } = e.target;
+    const target = e.target as HTMLInputElement;
+    const { name, value, type } = target;
+    const checked = target.checked;
+
     setSettings((prev) => ({
       ...prev,
       [name]: type === "checkbox" ? checked : value,
@@ -62,7 +63,6 @@ export default function AdminSettingsPage() {
     }
     setErrorMessage(null);
 
-    // Simule sauvegarde (ex: appel API ici)
     setTimeout(() => {
       setStatusMessage("Paramètres enregistrés avec succès.");
     }, 800);
@@ -130,7 +130,17 @@ export default function AdminSettingsPage() {
         <fieldset className={styles.checkboxGroup}>
           <legend>Fonctionnalités</legend>
 
-          <label className={styles.label} style={{ flexDirection: "row", gap: 8, fontWeight: 500, fontSize: "0.95rem", cursor: "pointer", marginBottom: 8 }}>
+          <label
+            className={styles.label}
+            style={{
+              flexDirection: "row",
+              gap: 8,
+              fontWeight: 500,
+              fontSize: "0.95rem",
+              cursor: "pointer",
+              marginBottom: 8,
+            }}
+          >
             <input
               type="checkbox"
               name="enableNotifications"
@@ -140,7 +150,17 @@ export default function AdminSettingsPage() {
             Activer les notifications
           </label>
 
-          <label className={styles.label} style={{ flexDirection: "row", gap: 8, fontWeight: 500, fontSize: "0.95rem", cursor: "pointer", marginBottom: 8 }}>
+          <label
+            className={styles.label}
+            style={{
+              flexDirection: "row",
+              gap: 8,
+              fontWeight: 500,
+              fontSize: "0.95rem",
+              cursor: "pointer",
+              marginBottom: 8,
+            }}
+          >
             <input
               type="checkbox"
               name="enableUserRegistration"
@@ -178,4 +198,5 @@ export default function AdminSettingsPage() {
     </div>
   );
 }
+
 

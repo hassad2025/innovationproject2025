@@ -4,14 +4,14 @@ export interface Event {
   id: string;
   titre: string;
   description: string;
-  lieu: string;
-  date: string;
-  heure: string;
-  categories: string[];
+  location: string;
+  date: string;          
+  heure: string;        
+  category: string[];  
   billetsDisponibles: number;
+  billetsVendus: number;
   image?: string;
   statut: EventStatus;
-  billetsVendus: number;
   organisateurId: string;
 }
 

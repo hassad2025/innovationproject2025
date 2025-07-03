@@ -9,9 +9,9 @@ import { Badge } from "@/components/ui/badge"
 import { toast } from "sonner"
 
 const statusMap = {
-  en_attente: { label: "En attente", color: "warning" },
-  publie: { label: "Publié", color: "success" },
-  rejete: { label: "Rejeté", color: "destructive" },
+  en_attente: { label: "En attente", colorClass: "bg-yellow-100 text-yellow-800" },
+  publie: { label: "Publié", colorClass: "bg-green-100 text-green-800" },
+  rejete: { label: "Rejeté", colorClass: "bg-red-100 text-red-800" },
 }
 
 export default function OrganisateurEventsList({ events: initialEvents }: { events: Event[] }) {
@@ -69,7 +69,7 @@ export default function OrganisateurEventsList({ events: initialEvents }: { even
             ) : (
               <h3 className="text-lg font-semibold">{event.titre}</h3>
             )}
-            <Badge variant={statusMap[event.statut]?.color ?? "default"}>
+            <Badge className={`px-2 py-1 rounded-full text-sm font-medium ${statusMap[event.statut]?.colorClass ?? "bg-gray-100 text-gray-800"}`}>
               {statusMap[event.statut]?.label ?? "Inconnu"}
             </Badge>
           </CardHeader>
@@ -85,19 +85,19 @@ export default function OrganisateurEventsList({ events: initialEvents }: { even
               <div className="flex gap-2 pt-2">
                 {editingId === event.id ? (
                   <>
-                    <Button variant="success" size="sm" onClick={saveEdit}>
+                    <Button size="sm" onClick={saveEdit}>
                       <Check className="w-4 h-4 mr-1" /> Enregistrer
                     </Button>
-                    <Button variant="outline" size="sm" onClick={cancelEdit}>
+                    <Button size="sm" onClick={cancelEdit}>
                       <X className="w-4 h-4 mr-1" /> Annuler
                     </Button>
                   </>
                 ) : (
                   <>
-                    <Button variant="outline" size="sm" onClick={() => startEdit(event)}>
+                    <Button size="sm" onClick={() => startEdit(event)}>
                       <Pencil className="w-4 h-4 mr-1" /> Modifier
                     </Button>
-                    <Button variant="destructive" size="sm" onClick={() => handleDelete(event.id)}>
+                    <Button size="sm" onClick={() => handleDelete(event.id)}>
                       <Trash2 className="w-4 h-4 mr-1" /> Supprimer
                     </Button>
                   </>

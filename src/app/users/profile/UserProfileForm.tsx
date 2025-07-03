@@ -9,7 +9,7 @@ interface UserProfile {
   nom: string
   prenom: string
   email: string
-  telephone?: string
+  telephone: string
 }
 
 interface UserProfileFormProps {
